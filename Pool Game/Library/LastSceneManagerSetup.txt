@@ -1,6 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/Menu - Arena Select - Matching Opponent - Match Summary - Win
-    & lose screens.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0

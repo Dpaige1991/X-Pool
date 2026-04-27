@@ -1,0 +1,42 @@
+{
+  "name": "com.unity.cloud.gltfast",
+  "version": "6.18.0",
+  "displayName": "Unity glTFast",
+  "description": "Use glTFast to import and export glTF 3D files efficiently at runtime or in the Editor",
+  "unity": "2022.3",
+  "keywords": [
+    "mesh",
+    "gltf",
+    "asset",
+    "format",
+    "draco",
+    "ktx",
+    "basis",
+    "universal",
+    "basisu"
+  ],
+  "dependencies": {
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.mathematics": "1.2.6",
+    "com.unity.burst": "1.8.24",
+    "com.unity.collections": "1.2.4"
+  },
+  "relatedPackages": {
+    "com.unity.cloud.gltfast.tests": "0.0.0"
+  },
+  "unityRelease": "67f2",
+  "_upm": {
+    "changelog": "### Added\n- (Add-Ons) [IPostJsonDeserialization](xref:GLTFast.Addons.IPostJsonDeserialization) for intercepting the loading process right after glTF JSON deserialization.\n- (Test) Model *SubMeshIncompatible*, which features animated morph targets and primitives of incompatible vertex buffer structures.\n\n### Fixed\n- (Shader) Back-face normals are now correctly flipped in URP (fixes [#38](https://github.com/Unity-Technologies/com.unity.cloud.gltfast/issues/38)).\n- (Import) Textures are named after the corresponding glTF image again to ensure consistency with previous imports (reverts a change introduced in 6.17.0).\n- (Import) Log error instead of throwing exception when failing to download a texture with a relative URI when a base URI is not provided."
+  },
+  "upmCi": {
+    "footprint": "b315ab1e81756b6158d1caee80a35a693729015e"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.cloud.gltfast@6.18/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.cloud.gltfast.src.git",
+    "type": "git",
+    "revision": "46caac08f2a6cf54326c7d57b9ce385f6665c4bc"
+  },
+  "_fingerprint": "17a3b690793e1eef3b9d72daa7407ef9cffea738"
+}

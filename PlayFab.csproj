@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E7736177-EFB7-1E22-9D91-6EACF47DEFB5}</ProjectGuid>
+    <ProjectGuid>{EDCB177E-C9E2-4A32-9FA8-18CB59EA6F53}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PlayFab</AssemblyName>

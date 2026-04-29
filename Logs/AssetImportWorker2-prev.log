@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16334 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Dominique Paige" at "2026-04-22T16:48:24.1415834Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Dominique Paige" at "2026-04-27T00:12:33.3581721Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-22T16:48:24Z
+Date: 2026-04-27T00:12:33Z
 
 COMMAND LINE ARGUMENTS:
 D:\Programs\Unity3D\6000.3.8f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/Github/XPool
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51796
+57394
 -licensingIpc
 LicenseClient-Dominique Paige
 -job-worker-count
@@ -67,12 +67,12 @@ D:/Github/XPool
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [4960]  Target information:
+Player connection [20960]  Target information:
 
-Player connection [4960]  * "[IP] 192.168.1.131 [Port] 0 [Flags] 2 [Guid] 2960331660 [EditorId] 2960331660 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PN1PAU4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20960]  * "[IP] 192.168.1.131 [Port] 0 [Flags] 2 [Guid] 1722041251 [EditorId] 1722041251 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PN1PAU4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4960] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4960] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20960] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20960] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,8 +84,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1207.23 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 1.00 ms.
+Refreshing native plugins compatible for Editor in 12.69 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 10.87 ms.
 Initialize engine version: 6000.3.8f1 (1c7db571dde0)
 [Subsystems] Discovering subsystems at path D:/Programs/Unity3D/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Github/XPool/Assets
@@ -100,20 +100,22 @@ Initialize mono
 Mono path[0] = 'D:/Programs/Unity3D/6000.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Programs/Unity3D/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Programs/Unity3D/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              0d86fc99a13b4b05b171ec29c40ca711
-  Correlation Id:          aa5679393f5a11c01da9ea9b01c8cd1f
-  External correlation Id: 5330886113183829327
-  Machine Id:              eKgV2uZqCVsPqaabQia6+m/r11g=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Dominique Paige" (connect: 0.00s, validation: 0.00s, handshake: 9.86s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Dominique Paige-notifications" at "2026-04-22T16:48:34.0057754Z"
-[Licensing::Module] Licensing Background thread has ended after 9.86s
 Registering precompiled unity dll's ...
 Register platform support module: D:/Programs/Unity3D/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Programs/Unity3D/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              f9646052a3ac4eeea0be54fe449fe843
+  Correlation Id:          5e3cc750fbe7509645e1d83a76348b78
+  External correlation Id: 2829917051912551497
+  Machine Id:              eKgV2uZqCVsPqaabQia6+m/r11g=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Dominique Paige" (connect: 0.00s, validation: 0.00s, handshake: 6.88s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Dominique Paige-notifications" at "2026-04-27T00:12:40.2444854Z"
+[Licensing::Module] Licensing Background thread has ended after 6.89s
+[Licensing::Module] Licensing is initialized (took 0.01s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 1878856-UnityPersXXXX
@@ -121,43 +123,60 @@ Register platform support module: D:/Programs/Unity3D/6000.3.8f1/Editor/Data/Pla
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: D:/Programs/Unity3D/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.346982 seconds.
-- Loaded All Assemblies, in  6.422 seconds
+Registered in 0.018075 seconds.
+- Loaded All Assemblies, in  4.543 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 954 ms
+CommandWithNoStdoutInvokationFailure: Unable to start ADB server. Please make sure the Android SDK is installed and is properly configured in the Editor. See the Console for more details.
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x0005a] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Command.cs:148 
+  at UnityEditor.Android.ADB.StartServer () [0x00008] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/ADB.cs:193 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/ADB.cs:231 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x0029d] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/DeploymentTargets/AndroidDeploymentTargetsExtension.cs:393 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00049] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/TargetScanWorker.cs:164 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00087] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:114 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x000af] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:75 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x000ba] in <6dd00658fb454e6fb4c06a416ab8eaa1>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules()
+
+(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Command.cs Line: 148)
+
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.541 seconds
-Domain Reload Profiling: 8963ms
-	BeginReloadAssembly (4749ms)
+- Finished resetting the current domain, in 16.704 seconds
+Domain Reload Profiling: 21246ms
+	BeginReloadAssembly (3842ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (108ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (428ms)
-	LoadAllAssembliesAndSetupDomain (1108ms)
-		LoadAssemblies (4822ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (124ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (3599ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1027ms)
-			TypeCache.Refresh (1024ms)
-				TypeCache.ScanAssembly (997ms)
+		AnalyzeDomain (416ms)
+			TypeCache.Refresh (412ms)
+				TypeCache.ScanAssembly (382ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (2542ms)
+	FinalizeReload (16704ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2416ms)
+		SetupLoadedEditorAssemblies (16618ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1236ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (197ms)
-			ProcessInitializeOnLoadAttributes (344ms)
-			ProcessInitializeOnLoadMethodAttributes (632ms)
+			InitializePlatformSupportModulesInManaged (13863ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (250ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (2106ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -167,8 +186,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  4.189 seconds
-Refreshing native plugins compatible for Editor in 7.29 ms, found 4 plugins.
+- Loaded All Assemblies, in 14.891 seconds
+Refreshing native plugins compatible for Editor in 8.94 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -207,1414 +226,124 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
 
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.532 seconds
-Domain Reload Profiling: 8720ms
-	BeginReloadAssembly (348ms)
+- Finished resetting the current domain, in 13.366 seconds
+Domain Reload Profiling: 28255ms
+	BeginReloadAssembly (521ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (3658ms)
-		LoadAssemblies (3122ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (14136ms)
+		LoadAssemblies (13487ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (727ms)
-			TypeCache.Refresh (537ms)
-				TypeCache.ScanAssembly (490ms)
-			BuildScriptInfoCaches (140ms)
-			ResolveRequiredComponents (41ms)
-	FinalizeReload (4533ms)
+		AnalyzeDomain (966ms)
+			TypeCache.Refresh (764ms)
+				TypeCache.ScanAssembly (710ms)
+			BuildScriptInfoCaches (155ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (13367ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3429ms)
+		SetupLoadedEditorAssemblies (3351ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (351ms)
-			ProcessInitializeOnLoadAttributes (2846ms)
-			ProcessInitializeOnLoadMethodAttributes (198ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 38.00 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7006 unused Assets / (4.2 MB). Loaded Objects now: 7801.
-Memory consumption went from 157.9 MB to 153.7 MB.
-Total: 157.027300 ms (FindLiveObjects: 7.028700 ms CreateObjectMapping: 3.116600 ms MarkObjects: 126.224800 ms  DeleteObjects: 20.654700 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.728 seconds
-Refreshing native plugins compatible for Editor in 6.23 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
-Assertion failure. Values are not equal.
-Expected: Failure == Success
-  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
-  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
-SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Library/PackageCache/com.unity.cloud.draco@2ad9855b1dfa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.802 seconds
-Domain Reload Profiling: 4533ms
-	BeginReloadAssembly (526ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (153ms)
-	RebuildCommonClasses (88ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (1022ms)
-		LoadAssemblies (739ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (523ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (471ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (2803ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2270ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (343ms)
-			ProcessInitializeOnLoadAttributes (1679ms)
-			ProcessInitializeOnLoadMethodAttributes (197ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (38ms)
-Refreshing native plugins compatible for Editor in 6.80 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7003 unused Assets / (4.4 MB). Loaded Objects now: 7817.
-Memory consumption went from 162.6 MB to 158.2 MB.
-Total: 16.242200 ms (FindLiveObjects: 1.348400 ms CreateObjectMapping: 0.578000 ms MarkObjects: 9.731300 ms  DeleteObjects: 4.582500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.858 seconds
-Refreshing native plugins compatible for Editor in 6.91 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
-Assertion failure. Values are not equal.
-Expected: Failure == Success
-  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
-  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
-SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Library/PackageCache/com.unity.cloud.draco@2ad9855b1dfa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.607 seconds
-Domain Reload Profiling: 4471ms
-	BeginReloadAssembly (454ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (121ms)
-	RebuildCommonClasses (85ms)
-	RebuildNativeTypeToScriptingClass (40ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (1225ms)
-		LoadAssemblies (713ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (709ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (628ms)
-			ResolveRequiredComponents (51ms)
-	FinalizeReload (2608ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2235ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (331ms)
-			ProcessInitializeOnLoadAttributes (1635ms)
-			ProcessInitializeOnLoadMethodAttributes (233ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (38ms)
-Refreshing native plugins compatible for Editor in 8.21 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7003 unused Assets / (4.9 MB). Loaded Objects now: 7820.
-Memory consumption went from 162.4 MB to 157.5 MB.
-Total: 19.825900 ms (FindLiveObjects: 1.509200 ms CreateObjectMapping: 0.654200 ms MarkObjects: 11.931200 ms  DeleteObjects: 5.728400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.730 seconds
-Refreshing native plugins compatible for Editor in 8.78 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
-Assertion failure. Values are not equal.
-Expected: Failure == Success
-  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
-  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
-SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Library/PackageCache/com.unity.cloud.draco@2ad9855b1dfa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.007 seconds
-Domain Reload Profiling: 4742ms
-	BeginReloadAssembly (517ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (131ms)
-	RebuildCommonClasses (89ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (1039ms)
-		LoadAssemblies (767ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (517ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (455ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (3008ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2629ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (327ms)
-			ProcessInitializeOnLoadAttributes (2072ms)
-			ProcessInitializeOnLoadMethodAttributes (189ms)
+			BeforeProcessingInitializeOnLoad (412ms)
+			ProcessInitializeOnLoadAttributes (2503ms)
+			ProcessInitializeOnLoadMethodAttributes (394ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Refreshing native plugins compatible for Editor in 5.77 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.82 seconds
+Refreshing native plugins compatible for Editor in 6.19 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7003 unused Assets / (4.2 MB). Loaded Objects now: 7823.
-Memory consumption went from 162.5 MB to 158.3 MB.
-Total: 15.474600 ms (FindLiveObjects: 1.613100 ms CreateObjectMapping: 0.650200 ms MarkObjects: 9.718700 ms  DeleteObjects: 3.490500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.834 seconds
-Refreshing native plugins compatible for Editor in 7.24 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
-Assertion failure. Values are not equal.
-Expected: Failure == Success
-  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
-  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
-SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Library/PackageCache/com.unity.cloud.draco@2ad9855b1dfa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.737 seconds
-Domain Reload Profiling: 4576ms
-	BeginReloadAssembly (503ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (166ms)
-	RebuildCommonClasses (87ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (1159ms)
-		LoadAssemblies (818ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (548ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (492ms)
-			ResolveRequiredComponents (33ms)
-	FinalizeReload (2738ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2361ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (294ms)
-			ProcessInitializeOnLoadAttributes (1822ms)
-			ProcessInitializeOnLoadMethodAttributes (211ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (36ms)
-Refreshing native plugins compatible for Editor in 7.94 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7003 unused Assets / (4.1 MB). Loaded Objects now: 7826.
-Memory consumption went from 162.5 MB to 158.4 MB.
-Total: 15.911400 ms (FindLiveObjects: 1.496700 ms CreateObjectMapping: 0.649000 ms MarkObjects: 10.346800 ms  DeleteObjects: 3.416900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 10892.218018 seconds.
-  path: Assets/Scenes/Benin.unity
-  artifactKey: Guid(e07b5b9af834f994aa12f52ad8d25b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Benin.unity using Guid(e07b5b9af834f994aa12f52ad8d25b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7100e4b14b4af6ccd232e5b277721b8f') in 0.008967 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.48 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6969 unused Assets / (4.0 MB). Loaded Objects now: 7828.
-Memory consumption went from 163.2 MB to 159.3 MB.
-Total: 18.238000 ms (FindLiveObjects: 1.882200 ms CreateObjectMapping: 0.666700 ms MarkObjects: 11.748700 ms  DeleteObjects: 3.938000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.938 seconds
-Refreshing native plugins compatible for Editor in 10.27 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
-Assertion failure. Values are not equal.
-Expected: Failure == Success
-  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
-  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
-SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Library/PackageCache/com.unity.cloud.draco@2ad9855b1dfa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.317 seconds
-Domain Reload Profiling: 5263ms
-	BeginReloadAssembly (507ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (138ms)
-	RebuildCommonClasses (78ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (1268ms)
-		LoadAssemblies (881ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (603ms)
-			TypeCache.Refresh (36ms)
-				TypeCache.ScanAssembly (5ms)
-			BuildScriptInfoCaches (516ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (3318ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2917ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (354ms)
-			ProcessInitializeOnLoadAttributes (2333ms)
-			ProcessInitializeOnLoadMethodAttributes (195ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Refreshing native plugins compatible for Editor in 6.36 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7003 unused Assets / (4.4 MB). Loaded Objects now: 7831.
-Memory consumption went from 163.3 MB to 158.9 MB.
-Total: 19.364800 ms (FindLiveObjects: 1.400700 ms CreateObjectMapping: 0.731400 ms MarkObjects: 10.763500 ms  DeleteObjects: 6.467000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  2.096 seconds
-Refreshing native plugins compatible for Editor in 6.48 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
-Assertion failure. Values are not equal.
-Expected: Failure == Success
-  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
-  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
-SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Library/PackageCache/com.unity.cloud.draco@2ad9855b1dfa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.729 seconds
-Domain Reload Profiling: 4829ms
-	BeginReloadAssembly (671ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (176ms)
-	RebuildCommonClasses (116ms)
-	RebuildNativeTypeToScriptingClass (46ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (1182ms)
-		LoadAssemblies (987ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (541ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (489ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (2729ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2329ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (372ms)
-			ProcessInitializeOnLoadAttributes (1704ms)
-			ProcessInitializeOnLoadMethodAttributes (215ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (36ms)
-Refreshing native plugins compatible for Editor in 9.92 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7003 unused Assets / (4.0 MB). Loaded Objects now: 7834.
-Memory consumption went from 163.4 MB to 159.4 MB.
-Total: 19.124300 ms (FindLiveObjects: 1.456200 ms CreateObjectMapping: 0.704600 ms MarkObjects: 12.828900 ms  DeleteObjects: 4.132200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 5276.578354 seconds.
-  path: Assets/Scripts/Managers/PoolGameSelector.cs
-  artifactKey: Guid(f61da62b6378e3f4e95040c143e82191) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Managers/PoolGameSelector.cs using Guid(f61da62b6378e3f4e95040c143e82191) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10dda254ade4e5eab5b15e52efc4b222') in 0.2214189 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Unloading 7009 unused Assets / (5.0 MB). Loaded Objects now: 7804.
+Memory consumption went from 156.2 MB to 151.2 MB.
+Total: 27.703200 ms (FindLiveObjects: 2.317000 ms CreateObjectMapping: 1.066200 ms MarkObjects: 15.900900 ms  DeleteObjects: 8.416200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prefabs/PoolKit.prefab
-  artifactKey: Guid(32b46aa5a731c1a4eaf92e0d6e9282d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/PoolKit.prefab using Guid(32b46aa5a731c1a4eaf92e0d6e9282d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e327ad660392c70233d39e21cdc6a28') in 3.5915084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1189
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.95 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6973 unused Assets / (4.3 MB). Loaded Objects now: 7835.
-Memory consumption went from 164.1 MB to 159.8 MB.
-Total: 22.688000 ms (FindLiveObjects: 1.905000 ms CreateObjectMapping: 1.381400 ms MarkObjects: 12.780900 ms  DeleteObjects: 6.618300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 248.615636 seconds.
-  path: Assets/Scripts/Managers/CueBallAimIndicator.cs
-  artifactKey: Guid(ff3be8183104fb4468e35b8ad775bd87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Managers/CueBallAimIndicator.cs using Guid(ff3be8183104fb4468e35b8ad775bd87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51fc21eca32c23b0d73f8a9827e0341f') in 0.0059542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.06 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6970 unused Assets / (3.9 MB). Loaded Objects now: 7835.
-Memory consumption went from 164.1 MB to 160.2 MB.
-Total: 19.920100 ms (FindLiveObjects: 1.670300 ms CreateObjectMapping: 1.179000 ms MarkObjects: 12.474700 ms  DeleteObjects: 4.594000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.888362 seconds.
-  path: Assets/Scripts/Managers/CueBallAimIndicator.cs
-  artifactKey: Guid(ff3be8183104fb4468e35b8ad775bd87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Managers/CueBallAimIndicator.cs using Guid(ff3be8183104fb4468e35b8ad775bd87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6abc2e5f3fa86d6f720976f1fdaaa3cf') in 0.0050663 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.821 seconds
-Refreshing native plugins compatible for Editor in 7.19 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
-Assertion failure. Values are not equal.
-Expected: Failure == Success
-  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
-  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
-SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Library/PackageCache/com.unity.cloud.draco@2ad9855b1dfa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.117 seconds
-Domain Reload Profiling: 4941ms
-	BeginReloadAssembly (567ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (181ms)
-	RebuildCommonClasses (87ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (1082ms)
-		LoadAssemblies (759ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (556ms)
-			TypeCache.Refresh (26ms)
-				TypeCache.ScanAssembly (5ms)
-			BuildScriptInfoCaches (494ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (3118ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2724ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (347ms)
-			ProcessInitializeOnLoadAttributes (1966ms)
-			ProcessInitializeOnLoadMethodAttributes (367ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (46ms)
-Refreshing native plugins compatible for Editor in 6.23 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7004 unused Assets / (4.1 MB). Loaded Objects now: 7838.
-Memory consumption went from 163.7 MB to 159.6 MB.
-Total: 21.113600 ms (FindLiveObjects: 1.410300 ms CreateObjectMapping: 0.694800 ms MarkObjects: 15.207100 ms  DeleteObjects: 3.799700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1678.253312 seconds.
-  path: Assets/Scenes/Benin.unity
-  artifactKey: Guid(e07b5b9af834f994aa12f52ad8d25b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Benin.unity using Guid(e07b5b9af834f994aa12f52ad8d25b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f21fe9a795f23160efde4c91cd23228e') in 0.1327726 seconds
+  Time since last request: 35930.962795 seconds.
+  path: Assets/Music/cue_ball_pocketfall2.wav
+  artifactKey: Guid(20397ed8920fe3a4b89d086d81755970) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Music/cue_ball_pocketfall2.wav using Guid(20397ed8920fe3a4b89d086d81755970) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e48be89e9fcff0d046fb3a00ed17cb8') in 0.7995207 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.475595 seconds.
-  path: Assets/Shader
-  artifactKey: Guid(10e877081f2ca254286b15a5937c7d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader using Guid(10e877081f2ca254286b15a5937c7d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeb871dd101fbfd84d79db9b3f98ec43') in 0.0011215 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.573180 seconds.
-  path: Assets/Shader
-  artifactKey: Guid(10e877081f2ca254286b15a5937c7d23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shader using Guid(10e877081f2ca254286b15a5937c7d23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4aa91627dea848607100a16ae480e908') in 0.0043453 seconds
+  Time since last request: 0.000168 seconds.
+  path: Assets/Music/cue_railHit.wav
+  artifactKey: Guid(36e386a56d5430f409ceecab03cb1a49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Music/cue_railHit.wav using Guid(36e386a56d5430f409ceecab03cb1a49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b56f28a8a977e0ad833f27627ce2c32a') in 0.0718347 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.826975 seconds.
-  path: Assets/Shader/NewUnlitUniversalRenderPipelineShader.shader
-  artifactKey: Guid(2e4b0405ff9535f458a7d03aff9cd765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/NewUnlitUniversalRenderPipelineShader.shader using Guid(2e4b0405ff9535f458a7d03aff9cd765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e018e142127b2dc9a73ec0c1a30805d9') in 0.0664355 seconds
+  Time since last request: 0.000050 seconds.
+  path: Assets/Music/cue_money_players_pot.wav
+  artifactKey: Guid(21707b210f9aedc4abc209e8d5e05961) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Music/cue_money_players_pot.wav using Guid(21707b210f9aedc4abc209e8d5e05961) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92462434549188fee5a37b14375b9d52') in 0.0563678 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.144579 seconds.
-  path: Assets/Shader/NewUnlitUniversalRenderPipelineShader.shader
-  artifactKey: Guid(2e4b0405ff9535f458a7d03aff9cd765) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shader/NewUnlitUniversalRenderPipelineShader.shader using Guid(2e4b0405ff9535f458a7d03aff9cd765) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8cd95b38b31c3e887e116138c7f19648') in 0.0539611 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Music/BGM
+  artifactKey: Guid(3c5b34dd3d665c146a1a08e662a7d014) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Music/BGM using Guid(3c5b34dd3d665c146a1a08e662a7d014) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '833250e018e7493c18fe9ad152afe6bb') in 0.0048797 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.243896 seconds.
-  path: Assets/Shader/Line.mat
-  artifactKey: Guid(194d44deee66f0348ba16e7b25df3db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Line.mat using Guid(194d44deee66f0348ba16e7b25df3db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7036c791b61804339e3ba1170b91ddf2') in 1.309508 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Music/cue_ball_spreadHit.wav
+  artifactKey: Guid(e8d88ceaa2916b74d8423ebc775874b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Music/cue_ball_spreadHit.wav using Guid(e8d88ceaa2916b74d8423ebc775874b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17a3285a84f4a51727ff792e7ed255ae') in 0.0595711 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 637.936025 seconds.
-  path: Assets/Shader/Line.mat
-  artifactKey: Guid(194d44deee66f0348ba16e7b25df3db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Line.mat using Guid(194d44deee66f0348ba16e7b25df3db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abbdceee22e4e088787599690829c8e1') in 0.302684 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.405704 seconds.
-  path: Assets/Shader/Line.mat
-  artifactKey: Guid(194d44deee66f0348ba16e7b25df3db7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shader/Line.mat using Guid(194d44deee66f0348ba16e7b25df3db7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '342e6446754a00de7ba50e82c3108fb4') in 0.0602637 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Shader/Line 1.mat
-  artifactKey: Guid(1d5f08243cdbae04e9758a72309fd54a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shader/Line 1.mat using Guid(1d5f08243cdbae04e9758a72309fd54a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3555c881c51a08176f2a1175c3d863c') in 0.0124134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.119437 seconds.
-  path: Assets/Shader/Hitmarker.mat
-  artifactKey: Guid(1d5f08243cdbae04e9758a72309fd54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Hitmarker.mat using Guid(1d5f08243cdbae04e9758a72309fd54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b558a537e2cdd1c43afc48f6899b2a8a') in 0.0115595 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.808992 seconds.
-  path: Assets/Shader/Hitmarker.mat
-  artifactKey: Guid(1d5f08243cdbae04e9758a72309fd54a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shader/Hitmarker.mat using Guid(1d5f08243cdbae04e9758a72309fd54a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20551ce498cc1053991897bb38e53fb9') in 0.010847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 10.75 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6972 unused Assets / (4.7 MB). Loaded Objects now: 7994.
-Memory consumption went from 171.0 MB to 166.2 MB.
-Total: 57.109700 ms (FindLiveObjects: 2.177500 ms CreateObjectMapping: 1.015600 ms MarkObjects: 47.843700 ms  DeleteObjects: 6.070300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 376.408012 seconds.
-  path: Assets/Scripts/UI/PowerSliderUI.cs
-  artifactKey: Guid(34e4e237e43114849b7597c0633ac573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/UI/PowerSliderUI.cs using Guid(34e4e237e43114849b7597c0633ac573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fe28655b85b48ccbe155856a063e6df') in 0.0242123 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  2.248 seconds
-Refreshing native plugins compatible for Editor in 7.08 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
-Assertion failure. Values are not equal.
-Expected: Failure == Success
-  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
-  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
-SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Library/PackageCache/com.unity.cloud.draco@2ad9855b1dfa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.853 seconds
-Domain Reload Profiling: 5109ms
-	BeginReloadAssembly (651ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (61ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (218ms)
-	RebuildCommonClasses (90ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (1412ms)
-		LoadAssemblies (1063ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (599ms)
-			TypeCache.Refresh (30ms)
-				TypeCache.ScanAssembly (6ms)
-			BuildScriptInfoCaches (517ms)
-			ResolveRequiredComponents (42ms)
-	FinalizeReload (2854ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2477ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (411ms)
-			ProcessInitializeOnLoadAttributes (1819ms)
-			ProcessInitializeOnLoadMethodAttributes (208ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Refreshing native plugins compatible for Editor in 6.21 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7005 unused Assets / (4.2 MB). Loaded Objects now: 7905.
-Memory consumption went from 165.8 MB to 161.6 MB.
-Total: 15.426000 ms (FindLiveObjects: 1.445300 ms CreateObjectMapping: 0.686900 ms MarkObjects: 9.631900 ms  DeleteObjects: 3.659800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.52 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6971 unused Assets / (4.3 MB). Loaded Objects now: 7905.
-Memory consumption went from 165.6 MB to 161.3 MB.
-Total: 19.056200 ms (FindLiveObjects: 1.589600 ms CreateObjectMapping: 0.973200 ms MarkObjects: 10.842200 ms  DeleteObjects: 5.647900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.999 seconds
-Refreshing native plugins compatible for Editor in 9.75 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
-Assertion failure. Values are not equal.
-Expected: Failure == Success
-  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
-  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
-SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Library/PackageCache/com.unity.cloud.draco@2ad9855b1dfa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.714 seconds
-Domain Reload Profiling: 4719ms
-	BeginReloadAssembly (501ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (157ms)
-	RebuildCommonClasses (87ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (1327ms)
-		LoadAssemblies (1034ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (505ms)
-			TypeCache.Refresh (27ms)
-				TypeCache.ScanAssembly (5ms)
-			BuildScriptInfoCaches (439ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (2715ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2312ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (336ms)
-			ProcessInitializeOnLoadAttributes (1742ms)
-			ProcessInitializeOnLoadMethodAttributes (194ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (33ms)
-Refreshing native plugins compatible for Editor in 6.59 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7005 unused Assets / (4.0 MB). Loaded Objects now: 7908.
-Memory consumption went from 165.7 MB to 161.7 MB.
-Total: 17.273100 ms (FindLiveObjects: 1.390200 ms CreateObjectMapping: 0.639800 ms MarkObjects: 11.489600 ms  DeleteObjects: 3.751700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.94 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6972 unused Assets / (3.8 MB). Loaded Objects now: 7909.
-Memory consumption went from 165.6 MB to 161.8 MB.
-Total: 23.098100 ms (FindLiveObjects: 1.777500 ms CreateObjectMapping: 0.722900 ms MarkObjects: 13.833400 ms  DeleteObjects: 6.761300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.693 seconds
-Refreshing native plugins compatible for Editor in 10.34 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
-Assertion failure. Values are not equal.
-Expected: Failure == Success
-  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
-  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
-SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Library/PackageCache/com.unity.cloud.draco@2ad9855b1dfa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.962 seconds
-Domain Reload Profiling: 4663ms
-	BeginReloadAssembly (459ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (126ms)
-	RebuildCommonClasses (87ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (1062ms)
-		LoadAssemblies (705ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (547ms)
-			TypeCache.Refresh (26ms)
-				TypeCache.ScanAssembly (6ms)
-			BuildScriptInfoCaches (476ms)
-			ResolveRequiredComponents (35ms)
-	FinalizeReload (2963ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2494ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (308ms)
-			ProcessInitializeOnLoadAttributes (1883ms)
-			ProcessInitializeOnLoadMethodAttributes (267ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (42ms)
-Refreshing native plugins compatible for Editor in 6.27 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7006 unused Assets / (4.1 MB). Loaded Objects now: 7912.
-Memory consumption went from 165.7 MB to 161.6 MB.
-Total: 16.231200 ms (FindLiveObjects: 1.377700 ms CreateObjectMapping: 0.650100 ms MarkObjects: 10.221300 ms  DeleteObjects: 3.980300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 12.39 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6972 unused Assets / (4.4 MB). Loaded Objects now: 7912.
-Memory consumption went from 165.7 MB to 161.3 MB.
-Total: 29.898500 ms (FindLiveObjects: 1.995800 ms CreateObjectMapping: 2.337800 ms MarkObjects: 19.041000 ms  DeleteObjects: 6.521500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.898 seconds
-Refreshing native plugins compatible for Editor in 10.24 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
-Assertion failure. Values are not equal.
-Expected: Failure == Success
-  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <6a469c5cf96a43eab23a293167261e20>:0 
-  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
-  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@2ad9855b1dfa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
-SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
-System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
-System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
-System.Reflection.MethodBase:Invoke(Object, Object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
-
-(Filename: ./Library/PackageCache/com.unity.cloud.draco@2ad9855b1dfa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
-
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.894 seconds
-Domain Reload Profiling: 4799ms
-	BeginReloadAssembly (494ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (154ms)
-	RebuildCommonClasses (80ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (1240ms)
-		LoadAssemblies (878ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (565ms)
-			TypeCache.Refresh (34ms)
-				TypeCache.ScanAssembly (7ms)
-			BuildScriptInfoCaches (487ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (2895ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2494ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (18ms)
-			BeforeProcessingInitializeOnLoad (352ms)
-			ProcessInitializeOnLoadAttributes (1891ms)
-			ProcessInitializeOnLoadMethodAttributes (204ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (39ms)
-Refreshing native plugins compatible for Editor in 6.50 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7006 unused Assets / (4.1 MB). Loaded Objects now: 7915.
-Memory consumption went from 165.8 MB to 161.7 MB.
-Total: 18.614400 ms (FindLiveObjects: 1.968400 ms CreateObjectMapping: 0.887000 ms MarkObjects: 11.681800 ms  DeleteObjects: 4.075200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 2349.516450 seconds.
-  path: Assets/Prefabs/Gameplay Screen Canvas .prefab
-  artifactKey: Guid(dc81e172ca7b0e04db195c01b226d6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gameplay Screen Canvas .prefab using Guid(dc81e172ca7b0e04db195c01b226d6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43699aa77555b5a1024585cea4ae3399') in 4.8494215 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 407
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(eb25f5ac8fc3216409c0234ec517abd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(eb25f5ac8fc3216409c0234ec517abd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31ff440f310f3b18591f38d295ff35b0') in 1.3439397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 160
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Prefabs/PoolGameKit.prefab
-  artifactKey: Guid(646da9151daf8094f93b8d3b4455c043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PoolGameKit.prefab using Guid(646da9151daf8094f93b8d3b4455c043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3bbeed258bbeb7e3ae1b44f5a023757') in 4.9014946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1519
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Prefabs/Matching Opponent Screen Canvas.prefab
-  artifactKey: Guid(22d3bace85487d9459bf7065a70d0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Matching Opponent Screen Canvas.prefab using Guid(22d3bace85487d9459bf7065a70d0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1031eed57c8f36012804175fe397bab3') in 0.67755 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 161
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.528667 seconds.
-  path: Assets/Prefabs/PoolKit_Table1.prefab
-  artifactKey: Guid(076e0690ddac1ba4b9932dd37c2912c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PoolKit_Table1.prefab using Guid(076e0690ddac1ba4b9932dd37c2912c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a75ee3f58b3443ac47c6dc347a277dd0') in 8.0765399 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3373
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Prefabs/PoolKit.prefab
-  artifactKey: Guid(32b46aa5a731c1a4eaf92e0d6e9282d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PoolKit.prefab using Guid(32b46aa5a731c1a4eaf92e0d6e9282d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7a8080a1e01f9e836ab599ff5c7c6ad') in 1.3213768 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3408
-
-========================================================================
-Received Import Request.
-  Time since last request: 1185.706939 seconds.
-  path: Assets/Scripts/UI/PowerSliderUI.cs
-  artifactKey: Guid(34e4e237e43114849b7597c0633ac573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/UI/PowerSliderUI.cs using Guid(34e4e237e43114849b7597c0633ac573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a9c3d6bccc5e039489d44b2a035ff7e') in 0.431716 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Prefabs/PoolKit_Table1.prefab
-  artifactKey: Guid(076e0690ddac1ba4b9932dd37c2912c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/PoolKit_Table1.prefab using Guid(076e0690ddac1ba4b9932dd37c2912c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd620692c81f1070acd2eccc9db8c9492') in 2.6039282 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1206
-
-========================================================================
-Received Import Request.
-  Time since last request: 563.082841 seconds.
-  path: Assets/Scenes/Benin.unity
-  artifactKey: Guid(e07b5b9af834f994aa12f52ad8d25b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Benin.unity using Guid(e07b5b9af834f994aa12f52ad8d25b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e173e7e5d4a822a12a66d91d3a838778') in 0.0336114 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Music/cue_ball_shot.wav
+  artifactKey: Guid(29e771ed1c09b654095c9aaf0a12e568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Music/cue_ball_shot.wav using Guid(29e771ed1c09b654095c9aaf0a12e568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1103bedae79ffc38a9ff61d35995e795') in 0.0587138 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3386.394835 seconds.
-  path: Assets/Prefabs/ColoredBalls/Ball.001.prefab
-  artifactKey: Guid(ec0db4f23f78c2c4aa3650e208c121ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ColoredBalls/Ball.001.prefab using Guid(ec0db4f23f78c2c4aa3650e208c121ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '714ce4c9e99a8c205353632cd2ad1b43') in 7.2720269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2121
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Prefabs/ColoredBalls/Ball.007.prefab
-  artifactKey: Guid(3622ff4583078f74fb5d7e577105565a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ColoredBalls/Ball.007.prefab using Guid(3622ff4583078f74fb5d7e577105565a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89fbc8928ca4828d51e022c0e458e0f8') in 1.7048565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2121
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Prefabs/Cues/cue.010.prefab
-  artifactKey: Guid(f67fc1d761647fa40b867212a685d178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cues/cue.010.prefab using Guid(f67fc1d761647fa40b867212a685d178) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eba164b359626427f6b8c1c104d9b8d1') in 1.3234297 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2121
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Prefabs/Cues/cue.007.prefab
-  artifactKey: Guid(c6f7296e3c136d34db7074f9df414fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cues/cue.007.prefab using Guid(c6f7296e3c136d34db7074f9df414fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c98982b5cbff826470f2c232e7e4a40') in 1.322505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2121
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Prefabs/Cues/cue.004.prefab
-  artifactKey: Guid(2cee9f5d20efb6f4194526a7fe76bb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cues/cue.004.prefab using Guid(2cee9f5d20efb6f4194526a7fe76bb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4f021e253cf2e41e3b57d3298bd24cc') in 1.3069574 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2121
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Prefabs/LagosBalls/13 Ball.prefab
-  artifactKey: Guid(0d2e5301431d28f42bd97468cb264f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LagosBalls/13 Ball.prefab using Guid(0d2e5301431d28f42bd97468cb264f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd35f302fbc76a2ded0243293a6104f72') in 0.9890603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2125
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Prefabs/LagosBalls/9 Ball.prefab
-  artifactKey: Guid(7a17d8e551e22d04d9cf6c96fc531665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LagosBalls/9 Ball.prefab using Guid(7a17d8e551e22d04d9cf6c96fc531665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8cd66cc8ab7344c4a431d4d8de653c0') in 1.3008847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2125
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Prefabs/LagosBalls/12 Ball.prefab
-  artifactKey: Guid(fe55a370f4af2b64eb6e17c81c2c20f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LagosBalls/12 Ball.prefab using Guid(fe55a370f4af2b64eb6e17c81c2c20f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3f01f1417954d863c2698bc017c78d3') in 1.1624579 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2125
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Prefabs/LagosBalls/14 Ball.prefab
-  artifactKey: Guid(4eadaac2f4ae0de48a636db9c87b9dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LagosBalls/14 Ball.prefab using Guid(4eadaac2f4ae0de48a636db9c87b9dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cee27e6ef1b43104b23966c6c10c571e') in 1.4722233 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2125
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Prefabs/LagosBalls/6 Ball.prefab
-  artifactKey: Guid(eff2dfaff11117c41963732d6a2ad933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LagosBalls/6 Ball.prefab using Guid(eff2dfaff11117c41963732d6a2ad933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86a67890f6bb4c6e6944ffc2e7bc549b') in 1.1173391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2125
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Prefabs/Cues/cue.002.prefab
-  artifactKey: Guid(5ca1d1425b8db01428cee66a7a82cee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cues/cue.002.prefab using Guid(5ca1d1425b8db01428cee66a7a82cee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bb1ccce8dbb2ae64b8bba9a1de846a0') in 1.1898229 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2121
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Prefabs/Cues/cue.009.prefab
-  artifactKey: Guid(5689de32e6ad6cb44a5a6af8d11adb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cues/cue.009.prefab using Guid(5689de32e6ad6cb44a5a6af8d11adb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a114d4357c8b418add00e7cd6001e3a') in 1.2798989 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2121
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Prefabs/LagosBalls/15 Ball.prefab
-  artifactKey: Guid(190e178d81ba01b43ae70cf49e1dca6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LagosBalls/15 Ball.prefab using Guid(190e178d81ba01b43ae70cf49e1dca6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cf809843d9f95fcc346e98d344ab151') in 1.2847333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2125
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Prefabs/LagosBalls/White.prefab
-  artifactKey: Guid(0e58aecec79f6ed4480e70391c181389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LagosBalls/White.prefab using Guid(0e58aecec79f6ed4480e70391c181389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5abfdc23e599d287753fdadded35495c') in 1.3314345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2125
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Prefabs/LagosBalls/3 Ball.prefab
-  artifactKey: Guid(97ca0271acb07a04198a0aa0a14bf66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LagosBalls/3 Ball.prefab using Guid(97ca0271acb07a04198a0aa0a14bf66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0f4d1a38347b639e2049d0658a85c43') in 1.3066515 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2125
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Prefabs/LagosBalls/4 Ball.prefab
-  artifactKey: Guid(3895397f9a1db3c4cb44931d34a015de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LagosBalls/4 Ball.prefab using Guid(3895397f9a1db3c4cb44931d34a015de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddac0efcbad6e3cd86e4ee1fdf6ffbf9') in 1.0617652 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2125
-
-========================================================================
-Received Import Request.
-  Time since last request: 916.656654 seconds.
-  path: Assets/Prefabs/PoolKit_Table2.prefab
-  artifactKey: Guid(f6c7c1c7240fba94ebbdd8f4ed1f80c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PoolKit_Table2.prefab using Guid(f6c7c1c7240fba94ebbdd8f4ed1f80c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '092f536805deb89e0d710a22aebec385') in 2.7739755 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3373
-
-========================================================================
-Received Import Request.
-  Time since last request: 1164.010080 seconds.
-  path: Assets/Prefabs/PoolKit_Table3.prefab
-  artifactKey: Guid(974ca1e26bcee404091e368328a2fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PoolKit_Table3.prefab using Guid(974ca1e26bcee404091e368328a2fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac2bcc4b0157ab34113609ade9a9f72e') in 1.5371723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3373
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.763732 seconds.
-  path: Assets/Prefabs/PoolKit_Table4.prefab
-  artifactKey: Guid(8dde4ba7c1ec5bf4580edf5ab11a563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PoolKit_Table4.prefab using Guid(8dde4ba7c1ec5bf4580edf5ab11a563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3dad05ca43990478b12154ecf17e990') in 1.3918162 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3373
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.724373 seconds.
-  path: Assets/Scenes/Benin.unity
-  artifactKey: Guid(e07b5b9af834f994aa12f52ad8d25b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Benin.unity using Guid(e07b5b9af834f994aa12f52ad8d25b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e44a15c327e93ba72ab7f4dd2a609b0a') in 0.0347681 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/Music/ui_button_click.wav
+  artifactKey: Guid(cd93eb4ff02c2aa41881cdaa122dc33e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Music/ui_button_click.wav using Guid(cd93eb4ff02c2aa41881cdaa122dc33e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e725ada647be68ff8c1fdec8f957ed5e') in 0.0582143 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1619.269755 seconds.
-  path: Assets/Scenes/Lagos.unity
-  artifactKey: Guid(9f2bcc61bd2b5ff4abc2889640dbe4fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Lagos.unity using Guid(9f2bcc61bd2b5ff4abc2889640dbe4fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3559f5421c62420223023a84dc28bdc') in 0.454667 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Music/ui_button_hover.wav
+  artifactKey: Guid(60d3ee4994dc8a4479d8ffa3f243fd84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Music/ui_button_hover.wav using Guid(60d3ee4994dc8a4479d8ffa3f243fd84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b3ce04c185a231cca4efcbc3485bb0b') in 0.0629018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Music/cue_ball_pocketfall.wav
+  artifactKey: Guid(411445ba1f6847449a5473e1605fc3e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Music/cue_ball_pocketfall.wav using Guid(411445ba1f6847449a5473e1605fc3e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc5f6232263ba984cec9db27af70f2dd') in 0.1855963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Music/BGM/Afrobeat_BGM_Chorus.wav
+  artifactKey: Guid(5592cfe09b72a6844ba1c12000072fbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Music/BGM/Afrobeat_BGM_Chorus.wav using Guid(5592cfe09b72a6844ba1c12000072fbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb005216fa8eb00f7c344a73a0f5f25a') in 0.0698047 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 

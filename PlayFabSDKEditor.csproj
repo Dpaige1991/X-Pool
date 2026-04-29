@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7974317B-EE15-E73E-7CB6-19DAD3364710}</ProjectGuid>
+    <ProjectGuid>{FB6CCBAF-3C65-E652-8793-13C7F47DA3CB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PlayFabSDKEditor</AssemblyName>
@@ -1243,7 +1243,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PlayFab.csproj">
-      <Project>{E7736177-EFB7-1E22-9D91-6EACF47DEFB5}</Project>
+      <Project>{EDCB177E-C9E2-4A32-9FA8-18CB59EA6F53}</Project>
       <Name>PlayFab</Name>
     </ProjectReference>
   </ItemGroup>

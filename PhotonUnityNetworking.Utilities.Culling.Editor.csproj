@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3860ECCB-B370-37D8-AECF-CF5C3FE78A43}</ProjectGuid>
+    <ProjectGuid>{8B9786B3-EB0B-D6F9-D6EC-9E297E8250C7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking.Utilities.Culling.Editor</AssemblyName>
@@ -1242,7 +1242,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{F101F1D9-E894-1D6C-FAA5-117770C5680A}</Project>
+      <Project>{EBEAC0E5-0474-125B-2DB8-11607C046670}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
   </ItemGroup>
